@@ -2,19 +2,29 @@
 
 Coursework and lab exercises developed for the Microcontroller Systems course.
 
-**Board:** STM32F429I-DISC1
+**Boards:** STM32F429I-DISC1 and Arduino Uno
+**Tools:** STM32CubeIDE, STM32CubeMX, and Arduino IDE
 
-## Contents
+## Repository structure
 
-- `homework/` - Arduino homework, schematics, and report.
-- `lab1/` - STM32 GPIO and LED control.
-- `lab2/` - STM32 lab 2 materials and project files.
-- `lab3/` - STM32 lab 3 materials and project files.
-- `lab4/` - STM32 lab 4 materials and project files.
-- `lab5/` - STM32 lab 5 materials and project files.
-- `lab6/` - STM32 lab 6 materials and project files.
-- `lab6_master/` - STM32 lab 6 master project files.
+### STM32 labs
 
-The repository includes source code, project configuration files, course
-documents, schematics, and selected reports. Build output and generated
-compiler files are excluded through `.gitignore`.
+Each lab is a self-contained STM32CubeIDE project with its source code,
+configuration files, drivers, and related course documents.
+
+- [`lab-01`](labs/lab-01/) - GPIO configuration and LED blinking.
+- [`lab-02`](labs/lab-02/) - Lab 2 project and documentation.
+- [`lab-03`](labs/lab-03/) - Lab 3 project and documentation.
+- [`lab-04`](labs/lab-04/) - Lab 4 project and documentation.
+- [`lab-05`](labs/lab-05/) - Lab 5 project and documentation.
+- [`lab-06`](labs/lab-06/) - Lab 6 project and documentation.
+- [`lab-06-master`](labs/lab-06-master/) - Master version of the lab 6 project.
+
+### Arduino homework
+
+- [`homework`](homework/) - Arduino code, schematics, instructions, and report.
+
+## Notes
+
+Build output and generated compiler files are excluded through `.gitignore`.
+Open each STM32 project from its own folder in STM32CubeIDE.
