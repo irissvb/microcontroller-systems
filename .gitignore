@@ -1,0 +1,25 @@
+# --- IDE & Build Folders ---
+# Ignore the folders where the compiler puts the 'translated' code
+**/Debug/
+**/Release/
+**/.settings/
+**/.cache/
+
+# --- Compiled Binary Files ---
+# These are the large files you actually flash to the chip. 
+# You don't need these on GitHub because they can be rebuilt from your code.
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.axf
+
+# --- Project & Local Config ---
+# These store your personal window layout and local paths
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
